@@ -1,0 +1,1886 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "jinja2 >=3.0.0,<4.0.0"
+  ],
+  "depends": [
+    "anyio >=3,<5",
+    "jsonpatch >=1.33.0,<2.0.0",
+    "langsmith >=0.1.0,<0.2.0",
+    "packaging >=23.2.0,<24.0.0",
+    "pydantic >=1,<3",
+    "python >=3.8.1,<4.0",
+    "pyyaml >=5.3",
+    "requests >=2.0.0,<3.0.0",
+    "tenacity >=8.1.0,<9.0.0"
+  ],
+  "extracted_package_dir": "C:\\Users\\shanusingh\\Anaconda3\\pkgs\\langchain-core-0.1.33-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/langchain_core-0.1.33.dist-info/INSTALLER",
+    "Lib/site-packages/langchain_core-0.1.33.dist-info/METADATA",
+    "Lib/site-packages/langchain_core-0.1.33.dist-info/RECORD",
+    "Lib/site-packages/langchain_core-0.1.33.dist-info/REQUESTED",
+    "Lib/site-packages/langchain_core-0.1.33.dist-info/WHEEL",
+    "Lib/site-packages/langchain_core-0.1.33.dist-info/direct_url.json",
+    "Lib/site-packages/langchain_core/__init__.py",
+    "Lib/site-packages/langchain_core/_api/__init__.py",
+    "Lib/site-packages/langchain_core/_api/beta_decorator.py",
+    "Lib/site-packages/langchain_core/_api/deprecation.py",
+    "Lib/site-packages/langchain_core/_api/internal.py",
+    "Lib/site-packages/langchain_core/_api/path.py",
+    "Lib/site-packages/langchain_core/agents.py",
+    "Lib/site-packages/langchain_core/beta/__init__.py",
+    "Lib/site-packages/langchain_core/beta/runnables/__init__.py",
+    "Lib/site-packages/langchain_core/beta/runnables/context.py",
+    "Lib/site-packages/langchain_core/caches.py",
+    "Lib/site-packages/langchain_core/callbacks/__init__.py",
+    "Lib/site-packages/langchain_core/callbacks/base.py",
+    "Lib/site-packages/langchain_core/callbacks/manager.py",
+    "Lib/site-packages/langchain_core/callbacks/stdout.py",
+    "Lib/site-packages/langchain_core/callbacks/streaming_stdout.py",
+    "Lib/site-packages/langchain_core/chat_history.py",
+    "Lib/site-packages/langchain_core/chat_sessions.py",
+    "Lib/site-packages/langchain_core/document_loaders/__init__.py",
+    "Lib/site-packages/langchain_core/document_loaders/base.py",
+    "Lib/site-packages/langchain_core/document_loaders/blob_loaders.py",
+    "Lib/site-packages/langchain_core/documents/__init__.py",
+    "Lib/site-packages/langchain_core/documents/base.py",
+    "Lib/site-packages/langchain_core/documents/compressor.py",
+    "Lib/site-packages/langchain_core/documents/transformers.py",
+    "Lib/site-packages/langchain_core/embeddings/__init__.py",
+    "Lib/site-packages/langchain_core/embeddings/embeddings.py",
+    "Lib/site-packages/langchain_core/embeddings/fake.py",
+    "Lib/site-packages/langchain_core/env.py",
+    "Lib/site-packages/langchain_core/example_selectors/__init__.py",
+    "Lib/site-packages/langchain_core/example_selectors/base.py",
+    "Lib/site-packages/langchain_core/example_selectors/length_based.py",
+    "Lib/site-packages/langchain_core/example_selectors/semantic_similarity.py",
+    "Lib/site-packages/langchain_core/exceptions.py",
+    "Lib/site-packages/langchain_core/globals.py",
+    "Lib/site-packages/langchain_core/language_models/__init__.py",
+    "Lib/site-packages/langchain_core/language_models/base.py",
+    "Lib/site-packages/langchain_core/language_models/chat_models.py",
+    "Lib/site-packages/langchain_core/language_models/fake.py",
+    "Lib/site-packages/langchain_core/language_models/fake_chat_models.py",
+    "Lib/site-packages/langchain_core/language_models/llms.py",
+    "Lib/site-packages/langchain_core/load/__init__.py",
+    "Lib/site-packages/langchain_core/load/dump.py",
+    "Lib/site-packages/langchain_core/load/load.py",
+    "Lib/site-packages/langchain_core/load/mapping.py",
+    "Lib/site-packages/langchain_core/load/serializable.py",
+    "Lib/site-packages/langchain_core/memory.py",
+    "Lib/site-packages/langchain_core/messages/__init__.py",
+    "Lib/site-packages/langchain_core/messages/ai.py",
+    "Lib/site-packages/langchain_core/messages/base.py",
+    "Lib/site-packages/langchain_core/messages/chat.py",
+    "Lib/site-packages/langchain_core/messages/function.py",
+    "Lib/site-packages/langchain_core/messages/human.py",
+    "Lib/site-packages/langchain_core/messages/system.py",
+    "Lib/site-packages/langchain_core/messages/tool.py",
+    "Lib/site-packages/langchain_core/messages/utils.py",
+    "Lib/site-packages/langchain_core/output_parsers/__init__.py",
+    "Lib/site-packages/langchain_core/output_parsers/base.py",
+    "Lib/site-packages/langchain_core/output_parsers/format_instructions.py",
+    "Lib/site-packages/langchain_core/output_parsers/json.py",
+    "Lib/site-packages/langchain_core/output_parsers/list.py",
+    "Lib/site-packages/langchain_core/output_parsers/openai_functions.py",
+    "Lib/site-packages/langchain_core/output_parsers/openai_tools.py",
+    "Lib/site-packages/langchain_core/output_parsers/pydantic.py",
+    "Lib/site-packages/langchain_core/output_parsers/string.py",
+    "Lib/site-packages/langchain_core/output_parsers/transform.py",
+    "Lib/site-packages/langchain_core/output_parsers/xml.py",
+    "Lib/site-packages/langchain_core/outputs/__init__.py",
+    "Lib/site-packages/langchain_core/outputs/chat_generation.py",
+    "Lib/site-packages/langchain_core/outputs/chat_result.py",
+    "Lib/site-packages/langchain_core/outputs/generation.py",
+    "Lib/site-packages/langchain_core/outputs/llm_result.py",
+    "Lib/site-packages/langchain_core/outputs/run_info.py",
+    "Lib/site-packages/langchain_core/prompt_values.py",
+    "Lib/site-packages/langchain_core/prompts/__init__.py",
+    "Lib/site-packages/langchain_core/prompts/base.py",
+    "Lib/site-packages/langchain_core/prompts/chat.py",
+    "Lib/site-packages/langchain_core/prompts/few_shot.py",
+    "Lib/site-packages/langchain_core/prompts/few_shot_with_templates.py",
+    "Lib/site-packages/langchain_core/prompts/image.py",
+    "Lib/site-packages/langchain_core/prompts/loading.py",
+    "Lib/site-packages/langchain_core/prompts/pipeline.py",
+    "Lib/site-packages/langchain_core/prompts/prompt.py",
+    "Lib/site-packages/langchain_core/prompts/string.py",
+    "Lib/site-packages/langchain_core/prompts/structured.py",
+    "Lib/site-packages/langchain_core/py.typed",
+    "Lib/site-packages/langchain_core/pydantic_v1/__init__.py",
+    "Lib/site-packages/langchain_core/pydantic_v1/dataclasses.py",
+    "Lib/site-packages/langchain_core/pydantic_v1/main.py",
+    "Lib/site-packages/langchain_core/retrievers.py",
+    "Lib/site-packages/langchain_core/runnables/__init__.py",
+    "Lib/site-packages/langchain_core/runnables/base.py",
+    "Lib/site-packages/langchain_core/runnables/branch.py",
+    "Lib/site-packages/langchain_core/runnables/config.py",
+    "Lib/site-packages/langchain_core/runnables/configurable.py",
+    "Lib/site-packages/langchain_core/runnables/fallbacks.py",
+    "Lib/site-packages/langchain_core/runnables/graph.py",
+    "Lib/site-packages/langchain_core/runnables/graph_ascii.py",
+    "Lib/site-packages/langchain_core/runnables/graph_png.py",
+    "Lib/site-packages/langchain_core/runnables/history.py",
+    "Lib/site-packages/langchain_core/runnables/learnable.py",
+    "Lib/site-packages/langchain_core/runnables/passthrough.py",
+    "Lib/site-packages/langchain_core/runnables/retry.py",
+    "Lib/site-packages/langchain_core/runnables/router.py",
+    "Lib/site-packages/langchain_core/runnables/schema.py",
+    "Lib/site-packages/langchain_core/runnables/utils.py",
+    "Lib/site-packages/langchain_core/stores.py",
+    "Lib/site-packages/langchain_core/sys_info.py",
+    "Lib/site-packages/langchain_core/tools.py",
+    "Lib/site-packages/langchain_core/tracers/__init__.py",
+    "Lib/site-packages/langchain_core/tracers/base.py",
+    "Lib/site-packages/langchain_core/tracers/context.py",
+    "Lib/site-packages/langchain_core/tracers/evaluation.py",
+    "Lib/site-packages/langchain_core/tracers/langchain.py",
+    "Lib/site-packages/langchain_core/tracers/langchain_v1.py",
+    "Lib/site-packages/langchain_core/tracers/log_stream.py",
+    "Lib/site-packages/langchain_core/tracers/memory_stream.py",
+    "Lib/site-packages/langchain_core/tracers/root_listeners.py",
+    "Lib/site-packages/langchain_core/tracers/run_collector.py",
+    "Lib/site-packages/langchain_core/tracers/schemas.py",
+    "Lib/site-packages/langchain_core/tracers/stdout.py",
+    "Lib/site-packages/langchain_core/utils/__init__.py",
+    "Lib/site-packages/langchain_core/utils/_merge.py",
+    "Lib/site-packages/langchain_core/utils/aiter.py",
+    "Lib/site-packages/langchain_core/utils/env.py",
+    "Lib/site-packages/langchain_core/utils/formatting.py",
+    "Lib/site-packages/langchain_core/utils/function_calling.py",
+    "Lib/site-packages/langchain_core/utils/html.py",
+    "Lib/site-packages/langchain_core/utils/image.py",
+    "Lib/site-packages/langchain_core/utils/input.py",
+    "Lib/site-packages/langchain_core/utils/interactive_env.py",
+    "Lib/site-packages/langchain_core/utils/iter.py",
+    "Lib/site-packages/langchain_core/utils/json_schema.py",
+    "Lib/site-packages/langchain_core/utils/loading.py",
+    "Lib/site-packages/langchain_core/utils/pydantic.py",
+    "Lib/site-packages/langchain_core/utils/strings.py",
+    "Lib/site-packages/langchain_core/utils/utils.py",
+    "Lib/site-packages/langchain_core/vectorstores.py",
+    ".nonadmin",
+    "Lib/site-packages/langchain_core/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/_api/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/_api/__pycache__/beta_decorator.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/_api/__pycache__/deprecation.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/_api/__pycache__/internal.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/_api/__pycache__/path.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/__pycache__/agents.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/beta/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/beta/runnables/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/beta/runnables/__pycache__/context.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/__pycache__/caches.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/callbacks/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/callbacks/__pycache__/base.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/callbacks/__pycache__/manager.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/callbacks/__pycache__/stdout.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/callbacks/__pycache__/streaming_stdout.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/__pycache__/chat_history.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/__pycache__/chat_sessions.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/document_loaders/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/document_loaders/__pycache__/base.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/document_loaders/__pycache__/blob_loaders.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/documents/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/documents/__pycache__/base.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/documents/__pycache__/compressor.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/documents/__pycache__/transformers.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/embeddings/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/embeddings/__pycache__/embeddings.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/embeddings/__pycache__/fake.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/__pycache__/env.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/example_selectors/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/example_selectors/__pycache__/base.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/example_selectors/__pycache__/length_based.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/example_selectors/__pycache__/semantic_similarity.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/__pycache__/exceptions.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/__pycache__/globals.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/language_models/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/language_models/__pycache__/base.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/language_models/__pycache__/chat_models.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/language_models/__pycache__/fake.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/language_models/__pycache__/fake_chat_models.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/language_models/__pycache__/llms.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/load/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/load/__pycache__/dump.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/load/__pycache__/load.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/load/__pycache__/mapping.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/load/__pycache__/serializable.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/__pycache__/memory.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/messages/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/messages/__pycache__/ai.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/messages/__pycache__/base.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/messages/__pycache__/chat.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/messages/__pycache__/function.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/messages/__pycache__/human.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/messages/__pycache__/system.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/messages/__pycache__/tool.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/messages/__pycache__/utils.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/output_parsers/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/output_parsers/__pycache__/base.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/output_parsers/__pycache__/format_instructions.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/output_parsers/__pycache__/json.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/output_parsers/__pycache__/list.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/output_parsers/__pycache__/openai_functions.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/output_parsers/__pycache__/openai_tools.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/output_parsers/__pycache__/pydantic.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/output_parsers/__pycache__/string.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/output_parsers/__pycache__/transform.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/output_parsers/__pycache__/xml.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/outputs/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/outputs/__pycache__/chat_generation.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/outputs/__pycache__/chat_result.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/outputs/__pycache__/generation.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/outputs/__pycache__/llm_result.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/outputs/__pycache__/run_info.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/__pycache__/prompt_values.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/prompts/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/prompts/__pycache__/base.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/prompts/__pycache__/chat.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/prompts/__pycache__/few_shot.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/prompts/__pycache__/few_shot_with_templates.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/prompts/__pycache__/image.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/prompts/__pycache__/loading.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/prompts/__pycache__/pipeline.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/prompts/__pycache__/prompt.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/prompts/__pycache__/string.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/prompts/__pycache__/structured.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/pydantic_v1/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/pydantic_v1/__pycache__/dataclasses.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/pydantic_v1/__pycache__/main.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/__pycache__/retrievers.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/runnables/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/runnables/__pycache__/base.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/runnables/__pycache__/branch.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/runnables/__pycache__/config.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/runnables/__pycache__/configurable.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/runnables/__pycache__/fallbacks.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/runnables/__pycache__/graph.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/runnables/__pycache__/graph_ascii.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/runnables/__pycache__/graph_png.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/runnables/__pycache__/history.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/runnables/__pycache__/learnable.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/runnables/__pycache__/passthrough.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/runnables/__pycache__/retry.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/runnables/__pycache__/router.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/runnables/__pycache__/schema.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/runnables/__pycache__/utils.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/__pycache__/stores.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/__pycache__/sys_info.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/__pycache__/tools.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/tracers/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/tracers/__pycache__/base.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/tracers/__pycache__/context.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/tracers/__pycache__/evaluation.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/tracers/__pycache__/langchain.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/tracers/__pycache__/langchain_v1.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/tracers/__pycache__/log_stream.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/tracers/__pycache__/memory_stream.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/tracers/__pycache__/root_listeners.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/tracers/__pycache__/run_collector.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/tracers/__pycache__/schemas.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/tracers/__pycache__/stdout.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/utils/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/utils/__pycache__/_merge.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/utils/__pycache__/aiter.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/utils/__pycache__/env.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/utils/__pycache__/formatting.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/utils/__pycache__/function_calling.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/utils/__pycache__/html.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/utils/__pycache__/image.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/utils/__pycache__/input.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/utils/__pycache__/interactive_env.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/utils/__pycache__/iter.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/utils/__pycache__/json_schema.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/utils/__pycache__/loading.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/utils/__pycache__/pydantic.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/utils/__pycache__/strings.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/utils/__pycache__/utils.cpython-39.pyc",
+    "Lib/site-packages/langchain_core/__pycache__/vectorstores.cpython-39.pyc"
+  ],
+  "fn": "langchain-core-0.1.33-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\shanusingh\\Anaconda3\\pkgs\\langchain-core-0.1.33-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "a0454a06df0bf2de641c21ac1e455530",
+  "name": "langchain-core",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\shanusingh\\Anaconda3\\pkgs\\langchain-core-0.1.33-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/langchain_core-0.1.33.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/langchain_core-0.1.33.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "955703cc61b4d576fa80e67f4854849ba16e6ff8f1d92a586d5569cee9b41b7b",
+        "sha256_in_prefix": "955703cc61b4d576fa80e67f4854849ba16e6ff8f1d92a586d5569cee9b41b7b",
+        "size_in_bytes": 5993
+      },
+      {
+        "_path": "site-packages/langchain_core-0.1.33.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4b1419e2a839de0906a2ad6fbb4da969daa441f82d2e52871e3eb8b53c480808",
+        "sha256_in_prefix": "4b1419e2a839de0906a2ad6fbb4da969daa441f82d2e52871e3eb8b53c480808",
+        "size_in_bytes": 22053
+      },
+      {
+        "_path": "site-packages/langchain_core-0.1.33.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/langchain_core-0.1.33.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "b0ff78e83ee31421de373e48ab87cbe0bbbe3eb5ab16c81f2d76db91c8886708",
+        "sha256_in_prefix": "b0ff78e83ee31421de373e48ab87cbe0bbbe3eb5ab16c81f2d76db91c8886708",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "site-packages/langchain_core-0.1.33.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c4e80b6205d90d02da942bcbc4b8f6b7094fc2bdad878f310537266679b620b1",
+        "sha256_in_prefix": "c4e80b6205d90d02da942bcbc4b8f6b7094fc2bdad878f310537266679b620b1",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/langchain_core/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "13994534bc7ddb51b3a88fd2d733c4bcdc87d2a25cd6a35f6b96e726d65d8c76",
+        "sha256_in_prefix": "13994534bc7ddb51b3a88fd2d733c4bcdc87d2a25cd6a35f6b96e726d65d8c76",
+        "size_in_bytes": 390
+      },
+      {
+        "_path": "site-packages/langchain_core/_api/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "19b8dda8d838e802114048496f26d6fe6199a3ebee97cb50824e5c5f9880c212",
+        "sha256_in_prefix": "19b8dda8d838e802114048496f26d6fe6199a3ebee97cb50824e5c5f9880c212",
+        "size_in_bytes": 1025
+      },
+      {
+        "_path": "site-packages/langchain_core/_api/beta_decorator.py",
+        "path_type": "hardlink",
+        "sha256": "7656113f0741a130282ee0f5f2d91f5b54fda8262b9977da31dc88d19f623efc",
+        "sha256_in_prefix": "7656113f0741a130282ee0f5f2d91f5b54fda8262b9977da31dc88d19f623efc",
+        "size_in_bytes": 9418
+      },
+      {
+        "_path": "site-packages/langchain_core/_api/deprecation.py",
+        "path_type": "hardlink",
+        "sha256": "2f16a35dc6f3599f699744b2985b3d2ec554fd2642577106a6e18df5b432fa82",
+        "sha256_in_prefix": "2f16a35dc6f3599f699744b2985b3d2ec554fd2642577106a6e18df5b432fa82",
+        "size_in_bytes": 14409
+      },
+      {
+        "_path": "site-packages/langchain_core/_api/internal.py",
+        "path_type": "hardlink",
+        "sha256": "2085b355b9e432c39634b46a13a1821dc4eecd1e1ecec9fd383b4d46e29fbd7b",
+        "sha256_in_prefix": "2085b355b9e432c39634b46a13a1821dc4eecd1e1ecec9fd383b4d46e29fbd7b",
+        "size_in_bytes": 662
+      },
+      {
+        "_path": "site-packages/langchain_core/_api/path.py",
+        "path_type": "hardlink",
+        "sha256": "33ddc9a3fd425294a1472a81ea6ffffd08dcce6d515350fbc9be0b4866a2cac9",
+        "sha256_in_prefix": "33ddc9a3fd425294a1472a81ea6ffffd08dcce6d515350fbc9be0b4866a2cac9",
+        "size_in_bytes": 984
+      },
+      {
+        "_path": "site-packages/langchain_core/agents.py",
+        "path_type": "hardlink",
+        "sha256": "e286dd95963f38f7db1c255694dc3ff10425fc3d7ffbe743e280952d8a68feff",
+        "sha256_in_prefix": "e286dd95963f38f7db1c255694dc3ff10425fc3d7ffbe743e280952d8a68feff",
+        "size_in_bytes": 7002
+      },
+      {
+        "_path": "site-packages/langchain_core/beta/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f2984e942753072bf3a8dd43478094febbda3b848345e6ca0139852a3d01e4dc",
+        "sha256_in_prefix": "f2984e942753072bf3a8dd43478094febbda3b848345e6ca0139852a3d01e4dc",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "site-packages/langchain_core/beta/runnables/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/langchain_core/beta/runnables/context.py",
+        "path_type": "hardlink",
+        "sha256": "4a27f96fa0fe6295eb75c0244137a1696900d9e1ef04d10ada0465f0b2a102f4",
+        "sha256_in_prefix": "4a27f96fa0fe6295eb75c0244137a1696900d9e1ef04d10ada0465f0b2a102f4",
+        "size_in_bytes": 12193
+      },
+      {
+        "_path": "site-packages/langchain_core/caches.py",
+        "path_type": "hardlink",
+        "sha256": "eb6be6e3cdfb205f8ef451bb5aaa0582dcdbc754a700da18d96fe63324ec8428",
+        "sha256_in_prefix": "eb6be6e3cdfb205f8ef451bb5aaa0582dcdbc754a700da18d96fe63324ec8428",
+        "size_in_bytes": 2018
+      },
+      {
+        "_path": "site-packages/langchain_core/callbacks/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1ebea087dc4ea0d903ffe411e9b464b168b99150692c367ca5a8a62f35ea72c9",
+        "sha256_in_prefix": "1ebea087dc4ea0d903ffe411e9b464b168b99150692c367ca5a8a62f35ea72c9",
+        "size_in_bytes": 2042
+      },
+      {
+        "_path": "site-packages/langchain_core/callbacks/base.py",
+        "path_type": "hardlink",
+        "sha256": "0ca7898c41188c7a4ddd32a15cf097376bfd09ea317220d549109426a3ced16e",
+        "sha256_in_prefix": "0ca7898c41188c7a4ddd32a15cf097376bfd09ea317220d549109426a3ced16e",
+        "size_in_bytes": 17991
+      },
+      {
+        "_path": "site-packages/langchain_core/callbacks/manager.py",
+        "path_type": "hardlink",
+        "sha256": "c87100e0e7f42124590ba6ee5ec3a726cc27ad0a2739396e07ed892d5abe79e2",
+        "sha256_in_prefix": "c87100e0e7f42124590ba6ee5ec3a726cc27ad0a2739396e07ed892d5abe79e2",
+        "size_in_bytes": 65139
+      },
+      {
+        "_path": "site-packages/langchain_core/callbacks/stdout.py",
+        "path_type": "hardlink",
+        "sha256": "9e57d2c7640ed03e85295746ce4bc32f923dd1a49d7475dc7333a252b11c67b3",
+        "sha256_in_prefix": "9e57d2c7640ed03e85295746ce4bc32f923dd1a49d7475dc7333a252b11c67b3",
+        "size_in_bytes": 2314
+      },
+      {
+        "_path": "site-packages/langchain_core/callbacks/streaming_stdout.py",
+        "path_type": "hardlink",
+        "sha256": "91af9102841a7b9146ec71349d828cc167c7bf14b8ecc223a4c02d00c3514a1b",
+        "sha256_in_prefix": "91af9102841a7b9146ec71349d828cc167c7bf14b8ecc223a4c02d00c3514a1b",
+        "size_in_bytes": 2433
+      },
+      {
+        "_path": "site-packages/langchain_core/chat_history.py",
+        "path_type": "hardlink",
+        "sha256": "d02f5b112d17dd9e1b99a9d03fb07d96585c82b54ada83f98ad7c7b0cdc3f2ea",
+        "sha256_in_prefix": "d02f5b112d17dd9e1b99a9d03fb07d96585c82b54ada83f98ad7c7b0cdc3f2ea",
+        "size_in_bytes": 6612
+      },
+      {
+        "_path": "site-packages/langchain_core/chat_sessions.py",
+        "path_type": "hardlink",
+        "sha256": "f2e73ad8ef93ebb9ccff4d4b1c4947b8ee17d1dd489a082ec750ece7609dbbaa",
+        "sha256_in_prefix": "f2e73ad8ef93ebb9ccff4d4b1c4947b8ee17d1dd489a082ec750ece7609dbbaa",
+        "size_in_bytes": 490
+      },
+      {
+        "_path": "site-packages/langchain_core/document_loaders/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3fefcbf7b152472df57181fe60f49d947fd7c52f5b9d64a82532e8a11f81a1a",
+        "sha256_in_prefix": "e3fefcbf7b152472df57181fe60f49d947fd7c52f5b9d64a82532e8a11f81a1a",
+        "size_in_bytes": 261
+      },
+      {
+        "_path": "site-packages/langchain_core/document_loaders/base.py",
+        "path_type": "hardlink",
+        "sha256": "b52d47e782a780ebeaf0d91089873fc61586c80dc024b8ab7d3ff7bfcc1bbf2d",
+        "sha256_in_prefix": "b52d47e782a780ebeaf0d91089873fc61586c80dc024b8ab7d3ff7bfcc1bbf2d",
+        "size_in_bytes": 4076
+      },
+      {
+        "_path": "site-packages/langchain_core/document_loaders/blob_loaders.py",
+        "path_type": "hardlink",
+        "sha256": "115c43a27a08355ec2206401d1df5f61a4184878809a96fdc1dcd2116a7afa8c",
+        "sha256_in_prefix": "115c43a27a08355ec2206401d1df5f61a4184878809a96fdc1dcd2116a7afa8c",
+        "size_in_bytes": 6636
+      },
+      {
+        "_path": "site-packages/langchain_core/documents/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "aa0838609ca5477b9fab306a70ea931c06f28910855e217888c38b89188906a5",
+        "sha256_in_prefix": "aa0838609ca5477b9fab306a70ea931c06f28910855e217888c38b89188906a5",
+        "size_in_bytes": 377
+      },
+      {
+        "_path": "site-packages/langchain_core/documents/base.py",
+        "path_type": "hardlink",
+        "sha256": "cb39f0152ff841d9f49b4099887eb4997161850e985dd865b30bd57440586b82",
+        "sha256_in_prefix": "cb39f0152ff841d9f49b4099887eb4997161850e985dd865b30bd57440586b82",
+        "size_in_bytes": 1036
+      },
+      {
+        "_path": "site-packages/langchain_core/documents/compressor.py",
+        "path_type": "hardlink",
+        "sha256": "d002f61834b1e37b28e3089d330233c6e50967af20a30f8ba024dd5eaded5f89",
+        "sha256_in_prefix": "d002f61834b1e37b28e3089d330233c6e50967af20a30f8ba024dd5eaded5f89",
+        "size_in_bytes": 1039
+      },
+      {
+        "_path": "site-packages/langchain_core/documents/transformers.py",
+        "path_type": "hardlink",
+        "sha256": "ea53443b65a600cf2249bee2d274ec5ff55a2f45543167d33489965932e22ed5",
+        "sha256_in_prefix": "ea53443b65a600cf2249bee2d274ec5ff55a2f45543167d33489965932e22ed5",
+        "size_in_bytes": 2494
+      },
+      {
+        "_path": "site-packages/langchain_core/embeddings/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c63f153af97e6d177c1cfccce9324d6ff072d82474d9c6d5e968774aad3a2e4d",
+        "sha256_in_prefix": "c63f153af97e6d177c1cfccce9324d6ff072d82474d9c6d5e968774aad3a2e4d",
+        "size_in_bytes": 220
+      },
+      {
+        "_path": "site-packages/langchain_core/embeddings/embeddings.py",
+        "path_type": "hardlink",
+        "sha256": "9acac481bb818565c068911bd02e1afaf2bffba1f859c288d3153fab93b99e8c",
+        "sha256_in_prefix": "9acac481bb818565c068911bd02e1afaf2bffba1f859c288d3153fab93b99e8c",
+        "size_in_bytes": 819
+      },
+      {
+        "_path": "site-packages/langchain_core/embeddings/fake.py",
+        "path_type": "hardlink",
+        "sha256": "23fe7f37b1f22674aacde049fe284bf3914ba2d71c0139e161e4a07998d78d8d",
+        "sha256_in_prefix": "23fe7f37b1f22674aacde049fe284bf3914ba2d71c0139e161e4a07998d78d8d",
+        "size_in_bytes": 1649
+      },
+      {
+        "_path": "site-packages/langchain_core/env.py",
+        "path_type": "hardlink",
+        "sha256": "74ff47bf25cc056305138efd375266c626edb7ce8dfbef883738629798f98f57",
+        "sha256_in_prefix": "74ff47bf25cc056305138efd375266c626edb7ce8dfbef883738629798f98f57",
+        "size_in_bytes": 486
+      },
+      {
+        "_path": "site-packages/langchain_core/example_selectors/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d57065c6947ca7088dede297cd2ce1e07aec140689669be14f7bfce2be5ff520",
+        "sha256_in_prefix": "d57065c6947ca7088dede297cd2ce1e07aec140689669be14f7bfce2be5ff520",
+        "size_in_bytes": 680
+      },
+      {
+        "_path": "site-packages/langchain_core/example_selectors/base.py",
+        "path_type": "hardlink",
+        "sha256": "ef140551f26b887415ee12b06f215a8a6fd42f53b2bf4d665d132f01973813e3",
+        "sha256_in_prefix": "ef140551f26b887415ee12b06f215a8a6fd42f53b2bf4d665d132f01973813e3",
+        "size_in_bytes": 516
+      },
+      {
+        "_path": "site-packages/langchain_core/example_selectors/length_based.py",
+        "path_type": "hardlink",
+        "sha256": "7ac9a1db188463779a9f8d4c78d042009f3c8089e3e67e3277a814ce9804d74a",
+        "sha256_in_prefix": "7ac9a1db188463779a9f8d4c78d042009f3c8089e3e67e3277a814ce9804d74a",
+        "size_in_bytes": 2453
+      },
+      {
+        "_path": "site-packages/langchain_core/example_selectors/semantic_similarity.py",
+        "path_type": "hardlink",
+        "sha256": "defee7e347571b692d486cec58b8a5cb2e775b5c871d050069a3eadb9061f5e1",
+        "sha256_in_prefix": "defee7e347571b692d486cec58b8a5cb2e775b5c871d050069a3eadb9061f5e1",
+        "size_in_bytes": 7392
+      },
+      {
+        "_path": "site-packages/langchain_core/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "204adf228a89e20f88e43143694856e8e9a9fdc421a0315d0a5069003c5185ea",
+        "sha256_in_prefix": "204adf228a89e20f88e43143694856e8e9a9fdc421a0315d0a5069003c5185ea",
+        "size_in_bytes": 1913
+      },
+      {
+        "_path": "site-packages/langchain_core/globals.py",
+        "path_type": "hardlink",
+        "sha256": "3c32827eacfbae445574d7cde405fcb93c54fb3e691b8229b9eb5879ef3b3ca6",
+        "sha256_in_prefix": "3c32827eacfbae445574d7cde405fcb93c54fb3e691b8229b9eb5879ef3b3ca6",
+        "size_in_bytes": 8376
+      },
+      {
+        "_path": "site-packages/langchain_core/language_models/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "916c817efd6985b70c1b174fc29c11b67c72ccc78e787527a41aca5a1f576ea7",
+        "sha256_in_prefix": "916c817efd6985b70c1b174fc29c11b67c72ccc78e787527a41aca5a1f576ea7",
+        "size_in_bytes": 1687
+      },
+      {
+        "_path": "site-packages/langchain_core/language_models/base.py",
+        "path_type": "hardlink",
+        "sha256": "6309a112b430a8272fdfe1067878a507d4d92aa695344d44845c0d2297382843",
+        "sha256_in_prefix": "6309a112b430a8272fdfe1067878a507d4d92aa695344d44845c0d2297382843",
+        "size_in_bytes": 12664
+      },
+      {
+        "_path": "site-packages/langchain_core/language_models/chat_models.py",
+        "path_type": "hardlink",
+        "sha256": "b0f4fb76a147a3d72ae8c47eb15ffd357fb49e2cf682e6790b336344ea0be4a6",
+        "sha256_in_prefix": "b0f4fb76a147a3d72ae8c47eb15ffd357fb49e2cf682e6790b336344ea0be4a6",
+        "size_in_bytes": 30544
+      },
+      {
+        "_path": "site-packages/langchain_core/language_models/fake.py",
+        "path_type": "hardlink",
+        "sha256": "8d2ffeb557e5d1cf9a3bb5bf40ab98ff3dc21157247b48804f277859b08c06b5",
+        "sha256_in_prefix": "8d2ffeb557e5d1cf9a3bb5bf40ab98ff3dc21157247b48804f277859b08c06b5",
+        "size_in_bytes": 2901
+      },
+      {
+        "_path": "site-packages/langchain_core/language_models/fake_chat_models.py",
+        "path_type": "hardlink",
+        "sha256": "fccd2cc4042c1d8c3c96b56e766ef0b8e3fcc0550dab7ced8433fab23a4fa642",
+        "sha256_in_prefix": "fccd2cc4042c1d8c3c96b56e766ef0b8e3fcc0550dab7ced8433fab23a4fa642",
+        "size_in_bytes": 10695
+      },
+      {
+        "_path": "site-packages/langchain_core/language_models/llms.py",
+        "path_type": "hardlink",
+        "sha256": "28ef0de3d28e434f353ec5c17a5cd2050bad72508459190b25ac6875c4901750",
+        "sha256_in_prefix": "28ef0de3d28e434f353ec5c17a5cd2050bad72508459190b25ac6875c4901750",
+        "size_in_bytes": 43775
+      },
+      {
+        "_path": "site-packages/langchain_core/load/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1671fc4050017e1ff9b2b79f7bf779cdbdae57dce8025796a368e89cfabcd1d8",
+        "sha256_in_prefix": "1671fc4050017e1ff9b2b79f7bf779cdbdae57dce8025796a368e89cfabcd1d8",
+        "size_in_bytes": 288
+      },
+      {
+        "_path": "site-packages/langchain_core/load/dump.py",
+        "path_type": "hardlink",
+        "sha256": "a8a4d0c3873eb45c80fb2ec2ac09d2e37e24d3cda974f1d3db256e97d590841f",
+        "sha256_in_prefix": "a8a4d0c3873eb45c80fb2ec2ac09d2e37e24d3cda974f1d3db256e97d590841f",
+        "size_in_bytes": 1174
+      },
+      {
+        "_path": "site-packages/langchain_core/load/load.py",
+        "path_type": "hardlink",
+        "sha256": "bcceb3edf6f0e91ca9d10a5493c61eba3af9c00a8e317d5d7f736be5fbe1d712",
+        "sha256_in_prefix": "bcceb3edf6f0e91ca9d10a5493c61eba3af9c00a8e317d5d7f736be5fbe1d712",
+        "size_in_bytes": 5468
+      },
+      {
+        "_path": "site-packages/langchain_core/load/mapping.py",
+        "path_type": "hardlink",
+        "sha256": "b345b29eafd4f5e04c659d97c3d94c351c5a51cf9cc6e97a5907bf6a8bcca972",
+        "sha256_in_prefix": "b345b29eafd4f5e04c659d97c3d94c351c5a51cf9cc6e97a5907bf6a8bcca972",
+        "size_in_bytes": 26707
+      },
+      {
+        "_path": "site-packages/langchain_core/load/serializable.py",
+        "path_type": "hardlink",
+        "sha256": "3ff63f1ffbd2f2db07048998764e49952ea381e06fff2fbad234966ff03542d7",
+        "sha256_in_prefix": "3ff63f1ffbd2f2db07048998764e49952ea381e06fff2fbad234966ff03542d7",
+        "size_in_bytes": 6792
+      },
+      {
+        "_path": "site-packages/langchain_core/memory.py",
+        "path_type": "hardlink",
+        "sha256": "b5f1be10dbfac2b51bd29c03a1f0266fae181f6845818dd166b5f9309ef0505f",
+        "sha256_in_prefix": "b5f1be10dbfac2b51bd29c03a1f0266fae181f6845818dd166b5f9309ef0505f",
+        "size_in_bytes": 2912
+      },
+      {
+        "_path": "site-packages/langchain_core/messages/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0db4ce87c4942cf6e5cbb552873540afa60b044139e1add3c9b7df9946c5bb46",
+        "sha256_in_prefix": "0db4ce87c4942cf6e5cbb552873540afa60b044139e1add3c9b7df9946c5bb46",
+        "size_in_bytes": 1830
+      },
+      {
+        "_path": "site-packages/langchain_core/messages/ai.py",
+        "path_type": "hardlink",
+        "sha256": "3a0ef483eb775c3c2202abd1ce5de1a705f08bbe32f27058ebd0679441d039a4",
+        "sha256_in_prefix": "3a0ef483eb775c3c2202abd1ce5de1a705f08bbe32f27058ebd0679441d039a4",
+        "size_in_bytes": 1924
+      },
+      {
+        "_path": "site-packages/langchain_core/messages/base.py",
+        "path_type": "hardlink",
+        "sha256": "f80a4c448a2f671be048163e6cb99e2777970ad13131b6f5a78ccea3c90c499f",
+        "sha256_in_prefix": "f80a4c448a2f671be048163e6cb99e2777970ad13131b6f5a78ccea3c90c499f",
+        "size_in_bytes": 5992
+      },
+      {
+        "_path": "site-packages/langchain_core/messages/chat.py",
+        "path_type": "hardlink",
+        "sha256": "89183b1208d73b7c8242f67f5069cc0a14e86ad0b3912541a58ce78ec2a9e5df",
+        "sha256_in_prefix": "89183b1208d73b7c8242f67f5069cc0a14e86ad0b3912541a58ce78ec2a9e5df",
+        "size_in_bytes": 2339
+      },
+      {
+        "_path": "site-packages/langchain_core/messages/function.py",
+        "path_type": "hardlink",
+        "sha256": "8ad33f75c46f7ca71cd9773f1d81bf166c02820778dae6a7c04efc68c6c71fff",
+        "sha256_in_prefix": "8ad33f75c46f7ca71cd9773f1d81bf166c02820778dae6a7c04efc68c6c71fff",
+        "size_in_bytes": 1929
+      },
+      {
+        "_path": "site-packages/langchain_core/messages/human.py",
+        "path_type": "hardlink",
+        "sha256": "75ad9fd1d7952543be68aedf99c147e3b2db8b13f3490f6206fcf161e8f93f48",
+        "sha256_in_prefix": "75ad9fd1d7952543be68aedf99c147e3b2db8b13f3490f6206fcf161e8f93f48",
+        "size_in_bytes": 1089
+      },
+      {
+        "_path": "site-packages/langchain_core/messages/system.py",
+        "path_type": "hardlink",
+        "sha256": "0d41cc6b021218c9b02265bba4b064b671c1be53eed8ed6da9ce356f26ee4375",
+        "sha256_in_prefix": "0d41cc6b021218c9b02265bba4b064b671c1be53eed8ed6da9ce356f26ee4375",
+        "size_in_bytes": 1042
+      },
+      {
+        "_path": "site-packages/langchain_core/messages/tool.py",
+        "path_type": "hardlink",
+        "sha256": "8e6c467c695a47c433e8a1904ce9ab0d63b2bc125e14b8779f1ab2d76ca5075f",
+        "sha256_in_prefix": "8e6c467c695a47c433e8a1904ce9ab0d63b2bc125e14b8779f1ab2d76ca5075f",
+        "size_in_bytes": 1923
+      },
+      {
+        "_path": "site-packages/langchain_core/messages/utils.py",
+        "path_type": "hardlink",
+        "sha256": "77024a16ce523ea9b3d1b0b6b1b8e348ce9818bd71248d3f14a94d862be4be3c",
+        "sha256_in_prefix": "77024a16ce523ea9b3d1b0b6b1b8e348ce9818bd71248d3f14a94d862be4be3c",
+        "size_in_bytes": 7829
+      },
+      {
+        "_path": "site-packages/langchain_core/output_parsers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "37b21d4fbc66a74518cfb0a3aabf26b489a7e1bcc24f2da1ef8068a504bf9751",
+        "sha256_in_prefix": "37b21d4fbc66a74518cfb0a3aabf26b489a7e1bcc24f2da1ef8068a504bf9751",
+        "size_in_bytes": 1452
+      },
+      {
+        "_path": "site-packages/langchain_core/output_parsers/base.py",
+        "path_type": "hardlink",
+        "sha256": "ebed612e5ef1cb6fd843a673b10ccb3e475e3665cb5d313a76a1351e9940783d",
+        "sha256_in_prefix": "ebed612e5ef1cb6fd843a673b10ccb3e475e3665cb5d313a76a1351e9940783d",
+        "size_in_bytes": 9841
+      },
+      {
+        "_path": "site-packages/langchain_core/output_parsers/format_instructions.py",
+        "path_type": "hardlink",
+        "sha256": "3eea9e0a364f68e9a9a465a5e075b56609599575f8d6523a5a8fe28c6a14e5a0",
+        "sha256_in_prefix": "3eea9e0a364f68e9a9a465a5e075b56609599575f8d6523a5a8fe28c6a14e5a0",
+        "size_in_bytes": 527
+      },
+      {
+        "_path": "site-packages/langchain_core/output_parsers/json.py",
+        "path_type": "hardlink",
+        "sha256": "090fdedf71d620137a6cb173500b40db11b3705a7bf5bc418bf62695d6023923",
+        "sha256_in_prefix": "090fdedf71d620137a6cb173500b40db11b3705a7bf5bc418bf62695d6023923",
+        "size_in_bytes": 8024
+      },
+      {
+        "_path": "site-packages/langchain_core/output_parsers/list.py",
+        "path_type": "hardlink",
+        "sha256": "d85651c0584fff12f2577257dab57529faec34ff0a80e5ef468e424b6ab37beb",
+        "sha256_in_prefix": "d85651c0584fff12f2577257dab57529faec34ff0a80e5ef468e424b6ab37beb",
+        "size_in_bytes": 5507
+      },
+      {
+        "_path": "site-packages/langchain_core/output_parsers/openai_functions.py",
+        "path_type": "hardlink",
+        "sha256": "a9e48a10db1e9b4b26bfdbb3131705d944b36345479ffca43035d7717ff41d46",
+        "sha256_in_prefix": "a9e48a10db1e9b4b26bfdbb3131705d944b36345479ffca43035d7717ff41d46",
+        "size_in_bytes": 8014
+      },
+      {
+        "_path": "site-packages/langchain_core/output_parsers/openai_tools.py",
+        "path_type": "hardlink",
+        "sha256": "9d11799c7fab7ffbc5522bc14c973e482df7d75ff8e78fe868645a2fde93dc2b",
+        "sha256_in_prefix": "9d11799c7fab7ffbc5522bc14c973e482df7d75ff8e78fe868645a2fde93dc2b",
+        "size_in_bytes": 5528
+      },
+      {
+        "_path": "site-packages/langchain_core/output_parsers/pydantic.py",
+        "path_type": "hardlink",
+        "sha256": "d739ccc33a3e3427114b48aa1e87178bd64154d4327e195c05b3d6dd1a453d30",
+        "sha256_in_prefix": "d739ccc33a3e3427114b48aa1e87178bd64154d4327e195c05b3d6dd1a453d30",
+        "size_in_bytes": 2593
+      },
+      {
+        "_path": "site-packages/langchain_core/output_parsers/string.py",
+        "path_type": "hardlink",
+        "sha256": "d02b02607f5f6735800bb96349b8d58c98c538f18cbdb257fbbc4dcbbd31d2f2",
+        "sha256_in_prefix": "d02b02607f5f6735800bb96349b8d58c98c538f18cbdb257fbbc4dcbbd31d2f2",
+        "size_in_bytes": 789
+      },
+      {
+        "_path": "site-packages/langchain_core/output_parsers/transform.py",
+        "path_type": "hardlink",
+        "sha256": "36de0d860ef230eb3df42632db262c2924856fa397378d39d4503cd53f5173ce",
+        "sha256_in_prefix": "36de0d860ef230eb3df42632db262c2924856fa397378d39d4503cd53f5173ce",
+        "size_in_bytes": 4466
+      },
+      {
+        "_path": "site-packages/langchain_core/output_parsers/xml.py",
+        "path_type": "hardlink",
+        "sha256": "3196bf90acde76bb77296c1ff32672dd3239e77a5d7f09ea7bcb5817abd91937",
+        "sha256_in_prefix": "3196bf90acde76bb77296c1ff32672dd3239e77a5d7f09ea7bcb5817abd91937",
+        "size_in_bytes": 6105
+      },
+      {
+        "_path": "site-packages/langchain_core/outputs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b66ef4487ade756eeead10fd898642c33947b7179fc173c15777c211b0430d1a",
+        "sha256_in_prefix": "b66ef4487ade756eeead10fd898642c33947b7179fc173c15777c211b0430d1a",
+        "size_in_bytes": 593
+      },
+      {
+        "_path": "site-packages/langchain_core/outputs/chat_generation.py",
+        "path_type": "hardlink",
+        "sha256": "f98edaa8b8cf4b839faf8f9642eb81e947f72487d5bf87e230dd241779054b4a",
+        "sha256_in_prefix": "f98edaa8b8cf4b839faf8f9642eb81e947f72487d5bf87e230dd241779054b4a",
+        "size_in_bytes": 2594
+      },
+      {
+        "_path": "site-packages/langchain_core/outputs/chat_result.py",
+        "path_type": "hardlink",
+        "sha256": "e1fbfb9711aace0cff2091878659104955364e713bfe923ded23860092bba8ee",
+        "sha256_in_prefix": "e1fbfb9711aace0cff2091878659104955364e713bfe923ded23860092bba8ee",
+        "size_in_bytes": 511
+      },
+      {
+        "_path": "site-packages/langchain_core/outputs/generation.py",
+        "path_type": "hardlink",
+        "sha256": "1c0b981bd1b39c80fcc87ba6727dceedfe8513f60a812aec95ae0c57f1f0287c",
+        "sha256_in_prefix": "1c0b981bd1b39c80fcc87ba6727dceedfe8513f60a812aec95ae0c57f1f0287c",
+        "size_in_bytes": 1809
+      },
+      {
+        "_path": "site-packages/langchain_core/outputs/llm_result.py",
+        "path_type": "hardlink",
+        "sha256": "1245cabb633424fd4bc8e68fade07cd5a8902deb7b630b4679819c198e9e3890",
+        "sha256_in_prefix": "1245cabb633424fd4bc8e68fade07cd5a8902deb7b630b4679819c198e9e3890",
+        "size_in_bytes": 2448
+      },
+      {
+        "_path": "site-packages/langchain_core/outputs/run_info.py",
+        "path_type": "hardlink",
+        "sha256": "904769caa5ed3674a959d51748734efae7685fb04a4a538b8560bc81b193c746",
+        "sha256_in_prefix": "904769caa5ed3674a959d51748734efae7685fb04a4a538b8560bc81b193c746",
+        "size_in_bytes": 295
+      },
+      {
+        "_path": "site-packages/langchain_core/prompt_values.py",
+        "path_type": "hardlink",
+        "sha256": "fef3f16f695d293e92bd7109fe1c35e074da6db3bce0d5fedcdd5e955b171a2c",
+        "sha256_in_prefix": "fef3f16f695d293e92bd7109fe1c35e074da6db3bce0d5fedcdd5e955b171a2c",
+        "size_in_bytes": 3560
+      },
+      {
+        "_path": "site-packages/langchain_core/prompts/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "88d13947d7b831e63baaceb8116b6c5abd41f39220ecac5bb6f3208fe381c6d0",
+        "sha256_in_prefix": "88d13947d7b831e63baaceb8116b6c5abd41f39220ecac5bb6f3208fe381c6d0",
+        "size_in_bytes": 2599
+      },
+      {
+        "_path": "site-packages/langchain_core/prompts/base.py",
+        "path_type": "hardlink",
+        "sha256": "c5b740debdeedd9c1e184deca0a79cc33d2a47343c1f815c20f608a88f737838",
+        "sha256_in_prefix": "c5b740debdeedd9c1e184deca0a79cc33d2a47343c1f815c20f608a88f737838",
+        "size_in_bytes": 9749
+      },
+      {
+        "_path": "site-packages/langchain_core/prompts/chat.py",
+        "path_type": "hardlink",
+        "sha256": "27e7383181eeb004b2a586f4669e66d28a917ab6a531e5b0da73aa8a85fedbca",
+        "sha256_in_prefix": "27e7383181eeb004b2a586f4669e66d28a917ab6a531e5b0da73aa8a85fedbca",
+        "size_in_bytes": 34873
+      },
+      {
+        "_path": "site-packages/langchain_core/prompts/few_shot.py",
+        "path_type": "hardlink",
+        "sha256": "b67f09fe0331103e668c2a398146ee99f940f8fce6d0b055af381d989a8d6863",
+        "sha256_in_prefix": "b67f09fe0331103e668c2a398146ee99f940f8fce6d0b055af381d989a8d6863",
+        "size_in_bytes": 11994
+      },
+      {
+        "_path": "site-packages/langchain_core/prompts/few_shot_with_templates.py",
+        "path_type": "hardlink",
+        "sha256": "a424c489aa8240721a7dd40262b81cb0139837d1a148beed5c78b759f6df79f8",
+        "sha256_in_prefix": "a424c489aa8240721a7dd40262b81cb0139837d1a148beed5c78b759f6df79f8",
+        "size_in_bytes": 5817
+      },
+      {
+        "_path": "site-packages/langchain_core/prompts/image.py",
+        "path_type": "hardlink",
+        "sha256": "7d7f03e8009a30ab7f93c700eb64993be1315fadddefc38a466c02748d8da9f3",
+        "sha256_in_prefix": "7d7f03e8009a30ab7f93c700eb64993be1315fadddefc38a466c02748d8da9f3",
+        "size_in_bytes": 2830
+      },
+      {
+        "_path": "site-packages/langchain_core/prompts/loading.py",
+        "path_type": "hardlink",
+        "sha256": "451cf151040200a9524d5abfe5b893f4bbd05c48e652412483fdf1b7f9d68292",
+        "sha256_in_prefix": "451cf151040200a9524d5abfe5b893f4bbd05c48e652412483fdf1b7f9d68292",
+        "size_in_bytes": 6374
+      },
+      {
+        "_path": "site-packages/langchain_core/prompts/pipeline.py",
+        "path_type": "hardlink",
+        "sha256": "dc0d3010c40cefce9270b1c99a601cff6bade6d75b2499884145eda895cb1575",
+        "sha256_in_prefix": "dc0d3010c40cefce9270b1c99a601cff6bade6d75b2499884145eda895cb1575",
+        "size_in_bytes": 2496
+      },
+      {
+        "_path": "site-packages/langchain_core/prompts/prompt.py",
+        "path_type": "hardlink",
+        "sha256": "fb70fde3d599147c51afa6aa1390e68d5fb7beb4ba6a77f4c24dc3f10d257129",
+        "sha256_in_prefix": "fb70fde3d599147c51afa6aa1390e68d5fb7beb4ba6a77f4c24dc3f10d257129",
+        "size_in_bytes": 9859
+      },
+      {
+        "_path": "site-packages/langchain_core/prompts/string.py",
+        "path_type": "hardlink",
+        "sha256": "9af9820cd8f479c22173b9a043c888dcd2c452c0249938e9634e0159965ed820",
+        "sha256_in_prefix": "9af9820cd8f479c22173b9a043c888dcd2c452c0249938e9634e0159965ed820",
+        "size_in_bytes": 6300
+      },
+      {
+        "_path": "site-packages/langchain_core/prompts/structured.py",
+        "path_type": "hardlink",
+        "sha256": "d509975d01421aa65b53cfff9f645dc6d243f5f56892fa4f8df0c1c11192eb47",
+        "sha256_in_prefix": "d509975d01421aa65b53cfff9f645dc6d243f5f56892fa4f8df0c1c11192eb47",
+        "size_in_bytes": 4584
+      },
+      {
+        "_path": "site-packages/langchain_core/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/langchain_core/pydantic_v1/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c92c3c7c3bdf6867e9a0ecc5489b30346600e665476c125ecafed770f1fc1973",
+        "sha256_in_prefix": "c92c3c7c3bdf6867e9a0ecc5489b30346600e665476c125ecafed770f1fc1973",
+        "size_in_bytes": 927
+      },
+      {
+        "_path": "site-packages/langchain_core/pydantic_v1/dataclasses.py",
+        "path_type": "hardlink",
+        "sha256": "b9afa151fb60d3112d6c12e0bbb815ec11a0a43d879373c67c3c42c548b90d9f",
+        "sha256_in_prefix": "b9afa151fb60d3112d6c12e0bbb815ec11a0a43d879373c67c3c42c548b90d9f",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "site-packages/langchain_core/pydantic_v1/main.py",
+        "path_type": "hardlink",
+        "sha256": "407d8b8028b8b6bfad2eddede8a84cca420b1c3cdbaa93d668640de0152ca4e6",
+        "sha256_in_prefix": "407d8b8028b8b6bfad2eddede8a84cca420b1c3cdbaa93d668640de0152ca4e6",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "site-packages/langchain_core/retrievers.py",
+        "path_type": "hardlink",
+        "sha256": "7b58842ad7be2626d5a76376fc1cac2d2b3bc9ae866cf5bca455917fff3716ac",
+        "sha256_in_prefix": "7b58842ad7be2626d5a76376fc1cac2d2b3bc9ae866cf5bca455917fff3716ac",
+        "size_in_bytes": 11533
+      },
+      {
+        "_path": "site-packages/langchain_core/runnables/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "817c99edceff589a24422bb78db3a14daaba36f6c4ca5ef15862d0d33e04a875",
+        "sha256_in_prefix": "817c99edceff589a24422bb78db3a14daaba36f6c4ca5ef15862d0d33e04a875",
+        "size_in_bytes": 2258
+      },
+      {
+        "_path": "site-packages/langchain_core/runnables/base.py",
+        "path_type": "hardlink",
+        "sha256": "b0852e56e0e44b07222886f549cd3b8139003ed68e647b5e3a0b25c66134600e",
+        "sha256_in_prefix": "b0852e56e0e44b07222886f549cd3b8139003ed68e647b5e3a0b25c66134600e",
+        "size_in_bytes": 179356
+      },
+      {
+        "_path": "site-packages/langchain_core/runnables/branch.py",
+        "path_type": "hardlink",
+        "sha256": "3ab2efea7e59f3c0a0cc41eb3c619f0c5ecd98355d53c4cd3751fef6133104c2",
+        "sha256_in_prefix": "3ab2efea7e59f3c0a0cc41eb3c619f0c5ecd98355d53c4cd3751fef6133104c2",
+        "size_in_bytes": 14612
+      },
+      {
+        "_path": "site-packages/langchain_core/runnables/config.py",
+        "path_type": "hardlink",
+        "sha256": "6b1ed18fb03decdff9e7b07b48bb40a618bfa12a4793c95b1e3490fc5d6d4d26",
+        "sha256_in_prefix": "6b1ed18fb03decdff9e7b07b48bb40a618bfa12a4793c95b1e3490fc5d6d4d26",
+        "size_in_bytes": 17732
+      },
+      {
+        "_path": "site-packages/langchain_core/runnables/configurable.py",
+        "path_type": "hardlink",
+        "sha256": "deca563f293fbe241dd867c9cc66a7390da01b23f4707285693213a06ce7edf1",
+        "sha256_in_prefix": "deca563f293fbe241dd867c9cc66a7390da01b23f4707285693213a06ce7edf1",
+        "size_in_bytes": 18433
+      },
+      {
+        "_path": "site-packages/langchain_core/runnables/fallbacks.py",
+        "path_type": "hardlink",
+        "sha256": "df75a64c8d63160c15a2e6cc39424a7fec2b005d9a1766c88d5102504eea6821",
+        "sha256_in_prefix": "df75a64c8d63160c15a2e6cc39424a7fec2b005d9a1766c88d5102504eea6821",
+        "size_in_bytes": 20237
+      },
+      {
+        "_path": "site-packages/langchain_core/runnables/graph.py",
+        "path_type": "hardlink",
+        "sha256": "bcd7bc27734166dafbf4fa79c4b38ae1685a0efe320135cc1b0650aba0c051b2",
+        "sha256_in_prefix": "bcd7bc27734166dafbf4fa79c4b38ae1685a0efe320135cc1b0650aba0c051b2",
+        "size_in_bytes": 8655
+      },
+      {
+        "_path": "site-packages/langchain_core/runnables/graph_ascii.py",
+        "path_type": "hardlink",
+        "sha256": "e20c6f20ed30c2423acaee523041ddec503e69e679b5256bf53f019ec6da0c5c",
+        "sha256_in_prefix": "e20c6f20ed30c2423acaee523041ddec503e69e679b5256bf53f019ec6da0c5c",
+        "size_in_bytes": 8747
+      },
+      {
+        "_path": "site-packages/langchain_core/runnables/graph_png.py",
+        "path_type": "hardlink",
+        "sha256": "960171936d9c388850ae3c8f4cdb549d6eef1baa934becdef47cd5a40d5d1468",
+        "sha256_in_prefix": "960171936d9c388850ae3c8f4cdb549d6eef1baa934becdef47cd5a40d5d1468",
+        "size_in_bytes": 3581
+      },
+      {
+        "_path": "site-packages/langchain_core/runnables/history.py",
+        "path_type": "hardlink",
+        "sha256": "e30d6778c41aaa20393f21d0c5495484231aea586d107a29788625abfa9df5c6",
+        "sha256_in_prefix": "e30d6778c41aaa20393f21d0c5495484231aea586d107a29788625abfa9df5c6",
+        "size_in_bytes": 19155
+      },
+      {
+        "_path": "site-packages/langchain_core/runnables/learnable.py",
+        "path_type": "hardlink",
+        "sha256": "1e51c442423faa823bfd30e0c4d2c9a53775c898f9fefc4f547b76d0568ed088",
+        "sha256_in_prefix": "1e51c442423faa823bfd30e0c4d2c9a53775c898f9fefc4f547b76d0568ed088",
+        "size_in_bytes": 436
+      },
+      {
+        "_path": "site-packages/langchain_core/runnables/passthrough.py",
+        "path_type": "hardlink",
+        "sha256": "37d421af0c078aabf8f5a8e58b3fb8fb0fecc3364f0bca1bb23404fcf5dbb43c",
+        "sha256_in_prefix": "37d421af0c078aabf8f5a8e58b3fb8fb0fecc3364f0bca1bb23404fcf5dbb43c",
+        "size_in_bytes": 23967
+      },
+      {
+        "_path": "site-packages/langchain_core/runnables/retry.py",
+        "path_type": "hardlink",
+        "sha256": "62fdeeec4bd6d43e096a108bdc2772d838c76fb583f0aa64371917dc6de1e757",
+        "sha256_in_prefix": "62fdeeec4bd6d43e096a108bdc2772d838c76fb583f0aa64371917dc6de1e757",
+        "size_in_bytes": 11947
+      },
+      {
+        "_path": "site-packages/langchain_core/runnables/router.py",
+        "path_type": "hardlink",
+        "sha256": "ad284e1a34eda663d933d6fe83cdc3fc9c7204642bae41035a38dc7e54fef5c9",
+        "sha256_in_prefix": "ad284e1a34eda663d933d6fe83cdc3fc9c7204642bae41035a38dc7e54fef5c9",
+        "size_in_bytes": 6703
+      },
+      {
+        "_path": "site-packages/langchain_core/runnables/schema.py",
+        "path_type": "hardlink",
+        "sha256": "c24637bb21a633118436daf91fb811bd5e5be88c674cdfcdefbf314b8fd102b8",
+        "sha256_in_prefix": "c24637bb21a633118436daf91fb811bd5e5be88c674cdfcdefbf314b8fd102b8",
+        "size_in_bytes": 4397
+      },
+      {
+        "_path": "site-packages/langchain_core/runnables/utils.py",
+        "path_type": "hardlink",
+        "sha256": "8a1170f646349193badbd098d78af03f2c8ea835a6943b2a93d8048f71a68e2c",
+        "sha256_in_prefix": "8a1170f646349193badbd098d78af03f2c8ea835a6943b2a93d8048f71a68e2c",
+        "size_in_bytes": 16132
+      },
+      {
+        "_path": "site-packages/langchain_core/stores.py",
+        "path_type": "hardlink",
+        "sha256": "57e4c4ef7c4cec24a0829f8a0350bdba8d426193a3e0efc48551884d48b31f5a",
+        "sha256_in_prefix": "57e4c4ef7c4cec24a0829f8a0350bdba8d426193a3e0efc48551884d48b31f5a",
+        "size_in_bytes": 3829
+      },
+      {
+        "_path": "site-packages/langchain_core/sys_info.py",
+        "path_type": "hardlink",
+        "sha256": "3f58d9efcdc0fcbb8c30be33e1845793cfb87144cb68498b2a455237c66b5d77",
+        "sha256_in_prefix": "3f58d9efcdc0fcbb8c30be33e1845793cfb87144cb68498b2a455237c66b5d77",
+        "size_in_bytes": 2778
+      },
+      {
+        "_path": "site-packages/langchain_core/tools.py",
+        "path_type": "hardlink",
+        "sha256": "91b220861dbbe7df8be6ba5946c6bbbe958465d1c27d59d63638d8ff0b81856c",
+        "sha256_in_prefix": "91b220861dbbe7df8be6ba5946c6bbbe958465d1c27d59d63638d8ff0b81856c",
+        "size_in_bytes": 33246
+      },
+      {
+        "_path": "site-packages/langchain_core/tracers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "697d1619d25bf6b821a85efc731836da771bb9efd8fa70954861e0babca6da6d",
+        "sha256_in_prefix": "697d1619d25bf6b821a85efc731836da771bb9efd8fa70954861e0babca6da6d",
+        "size_in_bytes": 896
+      },
+      {
+        "_path": "site-packages/langchain_core/tracers/base.py",
+        "path_type": "hardlink",
+        "sha256": "76c0a5af078b85cb2dd9c82d420f7e4abf4a85e9007f0812782dc6de56bcdeb9",
+        "sha256_in_prefix": "76c0a5af078b85cb2dd9c82d420f7e4abf4a85e9007f0812782dc6de56bcdeb9",
+        "size_in_bytes": 23868
+      },
+      {
+        "_path": "site-packages/langchain_core/tracers/context.py",
+        "path_type": "hardlink",
+        "sha256": "5373280b711d85d5340daaefbe8a6618f2b816aee31beca5e49e775497e063b6",
+        "sha256_in_prefix": "5373280b711d85d5340daaefbe8a6618f2b816aee31beca5e49e775497e063b6",
+        "size_in_bytes": 7626
+      },
+      {
+        "_path": "site-packages/langchain_core/tracers/evaluation.py",
+        "path_type": "hardlink",
+        "sha256": "b4a539b867f36f4ac85976a091ea51216714d6bc72ff635e56fdb1bece8e4de5",
+        "sha256_in_prefix": "b4a539b867f36f4ac85976a091ea51216714d6bc72ff635e56fdb1bece8e4de5",
+        "size_in_bytes": 8218
+      },
+      {
+        "_path": "site-packages/langchain_core/tracers/langchain.py",
+        "path_type": "hardlink",
+        "sha256": "1f475249e98c5d5bcbaa39294339cf90940ba185965623531ff7e05fe447af34",
+        "sha256_in_prefix": "1f475249e98c5d5bcbaa39294339cf90940ba185965623531ff7e05fe447af34",
+        "size_in_bytes": 8518
+      },
+      {
+        "_path": "site-packages/langchain_core/tracers/langchain_v1.py",
+        "path_type": "hardlink",
+        "sha256": "1695fb8703fbf8e3ac060bd440a81246676aa84c37f98b62abd27948dc9b968b",
+        "sha256_in_prefix": "1695fb8703fbf8e3ac060bd440a81246676aa84c37f98b62abd27948dc9b968b",
+        "size_in_bytes": 7724
+      },
+      {
+        "_path": "site-packages/langchain_core/tracers/log_stream.py",
+        "path_type": "hardlink",
+        "sha256": "c27890b390618e2bbac2be4d9f605f26d939edefaa5f2f7a5638b9d1b3921724",
+        "sha256_in_prefix": "c27890b390618e2bbac2be4d9f605f26d939edefaa5f2f7a5638b9d1b3921724",
+        "size_in_bytes": 21471
+      },
+      {
+        "_path": "site-packages/langchain_core/tracers/memory_stream.py",
+        "path_type": "hardlink",
+        "sha256": "8202e6202a608e7d38891e714210b2040fc3864dde6e1e3a12bccb4f6d96d4ca",
+        "sha256_in_prefix": "8202e6202a608e7d38891e714210b2040fc3864dde6e1e3a12bccb4f6d96d4ca",
+        "size_in_bytes": 3933
+      },
+      {
+        "_path": "site-packages/langchain_core/tracers/root_listeners.py",
+        "path_type": "hardlink",
+        "sha256": "5140035a0df024e6cb9eb9da4ffc819241f5875487dc30f670e379c500d1a186",
+        "sha256_in_prefix": "5140035a0df024e6cb9eb9da4ffc819241f5875487dc30f670e379c500d1a186",
+        "size_in_bytes": 1704
+      },
+      {
+        "_path": "site-packages/langchain_core/tracers/run_collector.py",
+        "path_type": "hardlink",
+        "sha256": "0a266b1ae963dedd559b4466c0d36b41f0dd3aeeb205b427259d1f1fe31c8893",
+        "sha256_in_prefix": "0a266b1ae963dedd559b4466c0d36b41f0dd3aeeb205b427259d1f1fe31c8893",
+        "size_in_bytes": 1530
+      },
+      {
+        "_path": "site-packages/langchain_core/tracers/schemas.py",
+        "path_type": "hardlink",
+        "sha256": "74b6fe6ce0576e69b8186020b47151d1e0554338254c6af56421ae90036bd1b0",
+        "sha256_in_prefix": "74b6fe6ce0576e69b8186020b47151d1e0554338254c6af56421ae90036bd1b0",
+        "size_in_bytes": 4265
+      },
+      {
+        "_path": "site-packages/langchain_core/tracers/stdout.py",
+        "path_type": "hardlink",
+        "sha256": "0b4c42eed815338e375889165edbd37a3f1140ac9bcf4d5dc1843fefbea5ab35",
+        "sha256_in_prefix": "0b4c42eed815338e375889165edbd37a3f1140ac9bcf4d5dc1843fefbea5ab35",
+        "size_in_bytes": 6186
+      },
+      {
+        "_path": "site-packages/langchain_core/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9b24e2c70e9fe77e8c5dfa0cc7a13d650ad780045fd6f9b46e412e84f327d0c1",
+        "sha256_in_prefix": "9b24e2c70e9fe77e8c5dfa0cc7a13d650ad780045fd6f9b46e412e84f327d0c1",
+        "size_in_bytes": 1284
+      },
+      {
+        "_path": "site-packages/langchain_core/utils/_merge.py",
+        "path_type": "hardlink",
+        "sha256": "15221688b8161811fdf52062864adb411466c21585e055b627cb081a402fa745",
+        "sha256_in_prefix": "15221688b8161811fdf52062864adb411466c21585e055b627cb081a402fa745",
+        "size_in_bytes": 2477
+      },
+      {
+        "_path": "site-packages/langchain_core/utils/aiter.py",
+        "path_type": "hardlink",
+        "sha256": "dd6c765d77c7525194c8a0a754e1d36de41503fabf08b54e1b14c62363fa2d56",
+        "sha256_in_prefix": "dd6c765d77c7525194c8a0a754e1d36de41503fabf08b54e1b14c62363fa2d56",
+        "size_in_bytes": 7198
+      },
+      {
+        "_path": "site-packages/langchain_core/utils/env.py",
+        "path_type": "hardlink",
+        "sha256": "ee0e818c414f8db6bdaf02f62d07a644a892902bf4569613ff22372de74bdcc7",
+        "sha256_in_prefix": "ee0e818c414f8db6bdaf02f62d07a644a892902bf4569613ff22372de74bdcc7",
+        "size_in_bytes": 1297
+      },
+      {
+        "_path": "site-packages/langchain_core/utils/formatting.py",
+        "path_type": "hardlink",
+        "sha256": "2e6d26ad52a5d5f4c2f5cf3e670c0deeb788541668ab9137e9b12399f8cadfec",
+        "sha256_in_prefix": "2e6d26ad52a5d5f4c2f5cf3e670c0deeb788541668ab9137e9b12399f8cadfec",
+        "size_in_bytes": 893
+      },
+      {
+        "_path": "site-packages/langchain_core/utils/function_calling.py",
+        "path_type": "hardlink",
+        "sha256": "04cf789b1d2416d286b25f10d9ba657f3f76be299a3964a967fe9e9d12a7d851",
+        "sha256_in_prefix": "04cf789b1d2416d286b25f10d9ba657f3f76be299a3964a967fe9e9d12a7d851",
+        "size_in_bytes": 11387
+      },
+      {
+        "_path": "site-packages/langchain_core/utils/html.py",
+        "path_type": "hardlink",
+        "sha256": "a67e0302fb2b407c0d20316d6f9bbd30b34b175ece32229c8312b688c8d9975f",
+        "sha256_in_prefix": "a67e0302fb2b407c0d20316d6f9bbd30b34b175ece32229c8312b688c8d9975f",
+        "size_in_bytes": 3623
+      },
+      {
+        "_path": "site-packages/langchain_core/utils/image.py",
+        "path_type": "hardlink",
+        "sha256": "3615c418cee7d328b35a3a6de9afddc1c3c44d6040471ae2f1c2cfd6f744c62e",
+        "sha256_in_prefix": "3615c418cee7d328b35a3a6de9afddc1c3c44d6040471ae2f1c2cfd6f744c62e",
+        "size_in_bytes": 423
+      },
+      {
+        "_path": "site-packages/langchain_core/utils/input.py",
+        "path_type": "hardlink",
+        "sha256": "e5a4f0f0c12f78ad9d002845b10b32d0e951971e3b18a1646dd94cbf2a2e64de",
+        "sha256_in_prefix": "e5a4f0f0c12f78ad9d002845b10b32d0e951971e3b18a1646dd94cbf2a2e64de",
+        "size_in_bytes": 1304
+      },
+      {
+        "_path": "site-packages/langchain_core/utils/interactive_env.py",
+        "path_type": "hardlink",
+        "sha256": "3659d78b3866d531b797fa8a348d2a1c9887921f6ada3463b79cc626c83f0420",
+        "sha256_in_prefix": "3659d78b3866d531b797fa8a348d2a1c9887921f6ada3463b79cc626c83f0420",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "site-packages/langchain_core/utils/iter.py",
+        "path_type": "hardlink",
+        "sha256": "d59333b316bb5f5a957f11239084cce03566e3ec2d8cc2c737461a22c31a36dd",
+        "sha256_in_prefix": "d59333b316bb5f5a957f11239084cce03566e3ec2d8cc2c737461a22c31a36dd",
+        "size_in_bytes": 6011
+      },
+      {
+        "_path": "site-packages/langchain_core/utils/json_schema.py",
+        "path_type": "hardlink",
+        "sha256": "f83a8d1f5c74c41c97f75ddd9be3f2469ec75a99d21debff667d8f6becb7e074",
+        "sha256_in_prefix": "f83a8d1f5c74c41c97f75ddd9be3f2469ec75a99d21debff667d8f6becb7e074",
+        "size_in_bytes": 3067
+      },
+      {
+        "_path": "site-packages/langchain_core/utils/loading.py",
+        "path_type": "hardlink",
+        "sha256": "220db61321fddedc5e832ae13d61ac909c10c7714f1182ae3c75ad4442f39ed8",
+        "sha256_in_prefix": "220db61321fddedc5e832ae13d61ac909c10c7714f1182ae3c75ad4442f39ed8",
+        "size_in_bytes": 2440
+      },
+      {
+        "_path": "site-packages/langchain_core/utils/pydantic.py",
+        "path_type": "hardlink",
+        "sha256": "0a3c53819a1f07d2dac1977afd3c12954c7f3c5e1e9aaae9b370bb4d59d839f1",
+        "sha256_in_prefix": "0a3c53819a1f07d2dac1977afd3c12954c7f3c5e1e9aaae9b370bb4d59d839f1",
+        "size_in_bytes": 301
+      },
+      {
+        "_path": "site-packages/langchain_core/utils/strings.py",
+        "path_type": "hardlink",
+        "sha256": "beffc37204e0b44929e97cc9c61c16cceab8fe733a4e3fbb5ebded2d24e6f9a7",
+        "sha256_in_prefix": "beffc37204e0b44929e97cc9c61c16cceab8fe733a4e3fbb5ebded2d24e6f9a7",
+        "size_in_bytes": 908
+      },
+      {
+        "_path": "site-packages/langchain_core/utils/utils.py",
+        "path_type": "hardlink",
+        "sha256": "1a202f08a3432fa48f5d7378c74da128f9e24a35cbe37cd248aaedf51aeb50b8",
+        "sha256_in_prefix": "1a202f08a3432fa48f5d7378c74da128f9e24a35cbe37cd248aaedf51aeb50b8",
+        "size_in_bytes": 6160
+      },
+      {
+        "_path": "site-packages/langchain_core/vectorstores.py",
+        "path_type": "hardlink",
+        "sha256": "a392942e6cbd0afffaabb45aad86e87c8c71ebdf45b3ac136236a088e1ed1df1",
+        "sha256_in_prefix": "a392942e6cbd0afffaabb45aad86e87c8c71ebdf45b3ac136236a088e1ed1df1",
+        "size_in_bytes": 26257
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/_api/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/_api/__pycache__/beta_decorator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/_api/__pycache__/deprecation.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/_api/__pycache__/internal.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/_api/__pycache__/path.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/__pycache__/agents.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/beta/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/beta/runnables/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/beta/runnables/__pycache__/context.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/__pycache__/caches.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/callbacks/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/callbacks/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/callbacks/__pycache__/manager.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/callbacks/__pycache__/stdout.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/callbacks/__pycache__/streaming_stdout.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/__pycache__/chat_history.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/__pycache__/chat_sessions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/document_loaders/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/document_loaders/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/document_loaders/__pycache__/blob_loaders.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/documents/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/documents/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/documents/__pycache__/compressor.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/documents/__pycache__/transformers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/embeddings/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/embeddings/__pycache__/embeddings.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/embeddings/__pycache__/fake.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/__pycache__/env.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/example_selectors/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/example_selectors/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/example_selectors/__pycache__/length_based.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/example_selectors/__pycache__/semantic_similarity.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/__pycache__/globals.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/language_models/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/language_models/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/language_models/__pycache__/chat_models.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/language_models/__pycache__/fake.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/language_models/__pycache__/fake_chat_models.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/language_models/__pycache__/llms.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/load/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/load/__pycache__/dump.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/load/__pycache__/load.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/load/__pycache__/mapping.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/load/__pycache__/serializable.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/__pycache__/memory.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/messages/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/messages/__pycache__/ai.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/messages/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/messages/__pycache__/chat.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/messages/__pycache__/function.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/messages/__pycache__/human.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/messages/__pycache__/system.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/messages/__pycache__/tool.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/messages/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/output_parsers/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/output_parsers/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/output_parsers/__pycache__/format_instructions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/output_parsers/__pycache__/json.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/output_parsers/__pycache__/list.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/output_parsers/__pycache__/openai_functions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/output_parsers/__pycache__/openai_tools.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/output_parsers/__pycache__/pydantic.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/output_parsers/__pycache__/string.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/output_parsers/__pycache__/transform.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/output_parsers/__pycache__/xml.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/outputs/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/outputs/__pycache__/chat_generation.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/outputs/__pycache__/chat_result.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/outputs/__pycache__/generation.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/outputs/__pycache__/llm_result.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/outputs/__pycache__/run_info.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/__pycache__/prompt_values.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/prompts/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/prompts/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/prompts/__pycache__/chat.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/prompts/__pycache__/few_shot.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/prompts/__pycache__/few_shot_with_templates.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/prompts/__pycache__/image.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/prompts/__pycache__/loading.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/prompts/__pycache__/pipeline.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/prompts/__pycache__/prompt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/prompts/__pycache__/string.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/prompts/__pycache__/structured.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/pydantic_v1/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/pydantic_v1/__pycache__/dataclasses.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/pydantic_v1/__pycache__/main.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/__pycache__/retrievers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/runnables/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/runnables/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/runnables/__pycache__/branch.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/runnables/__pycache__/config.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/runnables/__pycache__/configurable.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/runnables/__pycache__/fallbacks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/runnables/__pycache__/graph.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/runnables/__pycache__/graph_ascii.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/runnables/__pycache__/graph_png.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/runnables/__pycache__/history.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/runnables/__pycache__/learnable.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/runnables/__pycache__/passthrough.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/runnables/__pycache__/retry.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/runnables/__pycache__/router.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/runnables/__pycache__/schema.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/runnables/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/__pycache__/stores.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/__pycache__/sys_info.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/__pycache__/tools.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/tracers/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/tracers/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/tracers/__pycache__/context.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/tracers/__pycache__/evaluation.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/tracers/__pycache__/langchain.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/tracers/__pycache__/langchain_v1.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/tracers/__pycache__/log_stream.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/tracers/__pycache__/memory_stream.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/tracers/__pycache__/root_listeners.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/tracers/__pycache__/run_collector.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/tracers/__pycache__/schemas.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/tracers/__pycache__/stdout.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/utils/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/utils/__pycache__/_merge.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/utils/__pycache__/aiter.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/utils/__pycache__/env.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/utils/__pycache__/formatting.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/utils/__pycache__/function_calling.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/utils/__pycache__/html.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/utils/__pycache__/image.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/utils/__pycache__/input.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/utils/__pycache__/interactive_env.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/utils/__pycache__/iter.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/utils/__pycache__/json_schema.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/utils/__pycache__/loading.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/utils/__pycache__/pydantic.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/utils/__pycache__/strings.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/utils/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/langchain_core/__pycache__/vectorstores.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a340475b653fdccf053ea81b3c4982f1782c44e31cb3917ed8f5c59512f13fcb",
+  "size": 176994,
+  "subdir": "noarch",
+  "timestamp": 1710977385423,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/langchain-core-0.1.33-pyhd8ed1ab_0.conda",
+  "version": "0.1.33"
+}
